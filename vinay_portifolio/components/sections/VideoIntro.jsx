@@ -1,5 +1,5 @@
 'use client'
-
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
 import { useEffect, useRef, useState } from 'react'
 import dynamic from 'next/dynamic'
 import { gsap } from '@/lib/gsap'
@@ -134,7 +134,7 @@ export default function VideoIntro() {
 
       {/* 1 - Blurred ambient background */}
       <video
-        src="/assets/about_me.mp4"
+        src={`${BASE}/assets/about_me.mp4`}
         autoPlay muted playsInline
         aria-hidden="true"
         className={styles.bgVideo}
@@ -144,7 +144,7 @@ export default function VideoIntro() {
       <video
         ref={videoRef}
         data-testid="intro-video"
-        src="/assets/about_me.mp4"
+        src={`${BASE}/assets/about_me.mp4`}
         muted playsInline
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}

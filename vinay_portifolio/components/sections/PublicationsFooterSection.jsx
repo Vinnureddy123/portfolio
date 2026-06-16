@@ -1,6 +1,6 @@
 
 'use client'
-
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
 import { useEffect, useRef, Fragment } from 'react'
 import Image from 'next/image'
 import * as THREE from 'three'
@@ -138,7 +138,7 @@ export default function PublicationsFooterSection() {
       const camera = new THREE.OrthographicCamera(-W / 2, W / 2, H / 2, -H / 2, 0.1, 100)
       camera.position.z = 10
 
-      videoEl.src       = '/assets/footer-video.mp4'
+      videoEl.src = `${BASE}/assets/footer-video.mp4`
       videoEl.muted     = true
       videoEl.playsInline = true
       videoEl.loop      = true
