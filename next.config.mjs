@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
   reactCompiler: true,
   images: {
+    unoptimized: true,
     qualities: [75, 80, 95, 100],
   },
 };
