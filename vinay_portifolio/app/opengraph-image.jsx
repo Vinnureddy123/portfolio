@@ -1,9 +1,7 @@
 import { SITE_URL } from '@/lib/siteConfig'
 import { ImageResponse } from 'next/og'
 
-export const runtime = 'edge'
-
-export const alt = 'Chennareddy Vinay | Software Engineer'
+export const alt = 'Chennareddy Vinay | Control-M SME'
 
 export const size = {
   width: 1200,
@@ -12,8 +10,8 @@ export const size = {
 
 export const contentType = 'image/png'
 
-const ACCENT = '#f7931e'
-const photoUrl = `${SITE_URL}/assets/vinay-about.jpeg`
+const ACCENT = '#3b82f6'
+const photoUrl = `${SITE_URL}/assets/vinay-about.png`
 
 export default function Image() {
   return new ImageResponse(
@@ -23,7 +21,7 @@ export default function Image() {
           width: 1200,
           height: 630,
           display: 'flex',
-          background: '#050505',
+          background: '#050510',
           color: 'white',
           fontFamily: 'sans-serif',
           position: 'relative',
@@ -39,7 +37,7 @@ export default function Image() {
             width: 500,
             height: 500,
             borderRadius: 999,
-            background: 'rgba(247,147,30,0.15)',
+            background: 'rgba(59,130,246,0.15)',
           }}
         />
 
@@ -54,13 +52,7 @@ export default function Image() {
           }}
         >
           {/* TOP LABEL */}
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              marginBottom: 24,
-            }}
-          >
+          <div style={{ display: 'flex', alignItems: 'center', marginBottom: 24 }}>
             <div
               style={{
                 width: 10,
@@ -70,7 +62,6 @@ export default function Image() {
                 marginRight: 12,
               }}
             />
-
             <span
               style={{
                 color: ACCENT,
@@ -93,32 +84,18 @@ export default function Image() {
               marginBottom: 24,
             }}
           >
-            <span
-              style={{
-                fontSize: 92,
-                fontWeight: 900,
-                letterSpacing: -4,
-              }}
-            >
-              JYOTI
+            <span style={{ fontSize: 80, fontWeight: 900, letterSpacing: -3 }}>
+              CHENNAREDDY
             </span>
-
-            <span
-              style={{
-                fontSize: 92,
-                fontWeight: 900,
-                color: '#2d2d2d',
-                letterSpacing: -4,
-              }}
-            >
-              SINHA
+            <span style={{ fontSize: 80, fontWeight: 900, color: ACCENT, letterSpacing: -3 }}>
+              VINAY
             </span>
           </div>
 
           {/* DESCRIPTION */}
           <div
             style={{
-              fontSize: 24,
+              fontSize: 22,
               lineHeight: 1.5,
               color: '#9d9d9d',
               maxWidth: 540,
@@ -130,25 +107,13 @@ export default function Image() {
           </div>
 
           {/* TAGS */}
-          <div
-            style={{
-              display: 'flex',
-              gap: 12,
-              marginBottom: 36,
-              flexWrap: 'wrap',
-            }}
-          >
-            {[
-              'Control-M',
-              'L3 Support',
-              'Automation',
-              'Agentic AI',
-            ].map((tag) => (
+          <div style={{ display: 'flex', gap: 12, marginBottom: 36, flexWrap: 'wrap' }}>
+            {['Control-M', 'L3 Support', 'Automation', 'Agentic AI'].map((tag) => (
               <div
                 key={tag}
                 style={{
                   padding: '10px 18px',
-                  border: '1px solid rgba(255,255,255,0.12)',
+                  border: '1px solid rgba(59,130,246,0.4)',
                   borderRadius: 999,
                   color: ACCENT,
                   fontSize: 14,
@@ -162,42 +127,11 @@ export default function Image() {
           </div>
 
           {/* STATS */}
-          <div
-            style={{
-              display: 'flex',
-              gap: 32,
-            }}
-          >
-            {[
-              ['15+', 'Years'],
-              ['8+', 'Roles'],
-              ['CTM + AI', 'Specialist'],
-            ].map(([value, label]) => (
-              <div
-                key={label}
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                }}
-              >
-                <span
-                  style={{
-                    fontSize: 34,
-                    fontWeight: 900,
-                    color: 'white',
-                  }}
-                >
-                  {value}
-                </span>
-
-                <span
-                  style={{
-                    fontSize: 14,
-                    color: '#7a7a7a',
-                    textTransform: 'uppercase',
-                    letterSpacing: 1,
-                  }}
-                >
+          <div style={{ display: 'flex', gap: 32 }}>
+            {[['15+', 'Years'], ['8+', 'Roles'], ['CTM + AI', 'Specialist']].map(([value, label]) => (
+              <div key={label} style={{ display: 'flex', flexDirection: 'column' }}>
+                <span style={{ fontSize: 34, fontWeight: 900, color: 'white' }}>{value}</span>
+                <span style={{ fontSize: 14, color: '#7a7a7a', textTransform: 'uppercase', letterSpacing: 1 }}>
                   {label}
                 </span>
               </div>
@@ -205,7 +139,7 @@ export default function Image() {
           </div>
         </div>
 
-        {/* RIGHT SIDE */}
+        {/* RIGHT SIDE - Photo */}
         <div
           style={{
             width: 420,
@@ -217,24 +151,18 @@ export default function Image() {
             position: 'relative',
           }}
         >
-          {/* IMAGE */}
           <img
             src={photoUrl}
             width={420}
             height={630}
             alt="Chennareddy Vinay"
-            style={{
-              objectFit: 'cover',
-            }}
+            style={{ objectFit: 'cover' }}
           />
-
-          {/* OVERLAY */}
           <div
             style={{
               position: 'absolute',
               inset: 0,
-              background:
-                'linear-gradient(to left, transparent, rgba(5,5,5,0.9))',
+              background: 'linear-gradient(to left, transparent, rgba(5,5,16,0.9))',
             }}
           />
         </div>
@@ -250,7 +178,7 @@ export default function Image() {
             letterSpacing: 2,
           }}
         >
-          jyoti-sinha-portfolio.vercel.app
+          vinnureddy123.github.io/portfolio
         </div>
       </div>
     ),
