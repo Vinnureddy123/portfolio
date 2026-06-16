@@ -101,7 +101,7 @@ export default function WorkExperienceSection() {
 
       <div className={styles.bgImg} aria-hidden>
         <Image
-          src="/assets/work-experience.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/assets/work-experience.png`}
           alt=""
           fill
           quality={100}

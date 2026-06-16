@@ -135,7 +135,7 @@ export default function ProjectsSection() {
                 className={styles.slideBg}
               >
                 <Image
-                  src={proj.image}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}${proj.image}`}
                   alt={proj.title}
                   fill
                   quality={100}

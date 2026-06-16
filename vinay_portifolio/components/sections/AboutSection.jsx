@@ -87,7 +87,7 @@ export default function AboutSection() {
         <div className={styles.photoWrap}>
           <div className={styles.photoFrame} data-about-photo>
             <Image
-              src="/assets/vinay-about.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/assets/vinay-about.png`}
               alt={profile.name.full}
               fill
               quality={100}
