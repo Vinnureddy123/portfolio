@@ -1,0 +1,195 @@
+{
+  "name": {
+    "first": "ChennaReddy",
+    "last": "Vinay",
+    "full": "ChennaReddy Vinay"
+  },
+  "email": "chennareddyvinay@gmail.com",
+  "phone": "9550944283",
+  "tagline": "Building scalable Flutter and React Native apps for Android, iOS, and connected digital products.",
+  "description": "Software Engineer with 2.6 years of experience in Flutter, Dart, React Native, REST APIs, Firebase, and cross-platform mobile application development.",
+  "roles": {
+    "short": "Software Engineer",
+    "detailed": "Flutter Developer | React Native | Mobile App Engineer"
+  },
+  "location": {
+    "based": "Hyderabad, India",
+    "availability": "India / Remote"
+  },
+  "available": true,
+  "bio": "Software Engineer with 2.6 years of experience building cross-platform mobile applications for Android and iOS. Skilled in Flutter, Dart, React Native, REST API integration, Firebase, GetX architecture, responsive UI, testing, debugging, and performance optimization. Experienced across the SDLC from requirement analysis and UI/UX collaboration to development, QA, deployment, and delivery.",
+  "stats": [
+    { "value": "2.6+", "label": "Years Experience" },
+    { "value": "6+", "label": "Mobile Projects" },
+    { "value": "2", "label": "App Frameworks" }
+  ],
+  "skills": [
+    "Flutter",
+    "Dart",
+    "React Native",
+    "JavaScript",
+    "REST APIs",
+    "Firebase",
+    "GetX",
+    "WebRTC",
+    "Android",
+    "iOS",
+    "Responsive UI",
+    "Unit Testing",
+    "Functional Testing",
+    "Black Box Testing",
+    "White Box Testing",
+    "Git",
+    "HTML",
+    "CSS"
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Software Engineer",
+      "company": "Overt Ideas & Solutions PVT.LTD",
+      "companyShort": "OVERT IDEAS",
+      "type": "Full-time",
+      "location": "Hyderabad",
+      "period": "Jun 2025",
+      "periodEnd": "Present",
+      "bullets": [
+        "Design and build high-performance Android and iOS applications using Flutter, Dart, React Native, JavaScript, and TypeScript.",
+        "Contribute across requirement analysis, UI/UX design, coding, testing, deployment, and release delivery.",
+        "Conduct unit, functional, and integration testing to improve mobile app reliability, performance, and scalability.",
+        "Integrate REST APIs, Firebase services, and third-party SDKs while implementing scalable state management with GetX."
+      ],
+      "desc": "Cross-platform mobile app engineering across Flutter, React Native, API integration, testing, debugging, and performance optimization.",
+      "tech": ["Flutter", "Dart", "React Native", "JavaScript", "TypeScript", "Firebase", "REST APIs", "GetX"]
+    },
+    {
+      "id": 2,
+      "role": "Software Engineer",
+      "company": "KaremindiScripts Pvt Ltd",
+      "companyShort": "KAREMINDISCRIPTS",
+      "type": "Full-time",
+      "location": "Chennai",
+      "period": "Aug 2023",
+      "periodEnd": "Jun 2025",
+      "bullets": [
+        "Designed and developed Android and iOS applications using Flutter and Dart with clean, reusable, and testable code.",
+        "Collaborated with backend, UI/UX, and QA teams to deliver well-integrated mobile features on schedule.",
+        "Improved responsiveness and stability by fixing bugs, optimizing widget rendering, and tuning Flutter performance.",
+        "Supported planning and prioritization for smooth project delivery, releases, and client satisfaction."
+      ],
+      "desc": "Flutter mobile application development with strong focus on code quality, performance, team collaboration, and reliable delivery.",
+      "tech": ["Flutter", "Dart", "Android", "iOS", "REST APIs", "Git", "Testing"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E Mechanical Engineering",
+      "school": "Jawaharlal Nehru Technological University",
+      "location": "Anantapur",
+      "period": "Jun 2014",
+      "periodEnd": "May 2018"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Father Muller HMMA",
+      "subtitle": "Healthcare Mobile App",
+      "type": "Flutter App",
+      "link": "mailto:chennareddyvinay@gmail.com",
+      "image": "/assets/project-artgenio1.png",
+      "tech": ["Flutter", "Dart", "REST APIs", "Android", "iOS", "Testing"],
+      "desc": "Developed patient appointment booking, health record access, secure API-driven updates, and responsive cross-platform healthcare workflows."
+    },
+    {
+      "id": 2,
+      "title": "Salem Gopi Hospital HMMA",
+      "subtitle": "Patient Services Platform",
+      "type": "Flutter App",
+      "link": "mailto:chennareddyvinay@gmail.com",
+      "image": "/assets/project-easyfolio1.png",
+      "tech": ["Flutter", "Dart", "REST APIs", "Notifications", "Security"],
+      "desc": "Built patient services for appointments, treatment progress, doctor communication, live updates, and secure healthcare data access."
+    },
+    {
+      "id": 3,
+      "title": "Star HMMA",
+      "subtitle": "Hospital Workflow App",
+      "type": "Healthcare",
+      "link": "mailto:chennareddyvinay@gmail.com",
+      "image": "/assets/project-artgenio1.png",
+      "tech": ["Flutter", "Dart", "REST APIs", "Android", "iOS"],
+      "desc": "Implemented appointment scheduling, patient record tracking, doctor-patient communication, privacy controls, and cross-platform optimization."
+    },
+    {
+      "id": 4,
+      "title": "Conference Call",
+      "subtitle": "Video Meeting App",
+      "type": "Real Time",
+      "link": "mailto:chennareddyvinay@gmail.com",
+      "image": "/assets/project-easyfolio1.png",
+      "tech": ["Flutter", "Dart", "WebRTC", "Firebase", "REST APIs"],
+      "desc": "Created secure one-to-one and group video calls, real-time chat, file sharing, scheduling, reminders, and low-latency meeting flows."
+    },
+    {
+      "id": 5,
+      "title": "Arete HMMA",
+      "subtitle": "Healthcare Access App",
+      "type": "Flutter App",
+      "link": "mailto:chennareddyvinay@gmail.com",
+      "image": "/assets/project-artgenio1.png",
+      "tech": ["Flutter", "Dart", "REST APIs", "UI/UX", "Testing"],
+      "desc": "Delivered appointment booking, medical history access, doctor treatment tracking, simple navigation, and stable Android and iOS support."
+    },
+    {
+      "id": 6,
+      "title": "Employee Attendance App",
+      "subtitle": "Face Validation System",
+      "type": "React Native",
+      "link": "mailto:chennareddyvinay@gmail.com",
+      "image": "/assets/project-easyfolio1.png",
+      "tech": ["React Native", "JavaScript", "Firebase", "REST APIs", "Face Recognition"],
+      "desc": "Built employee check-in and check-out tracking, face validation, leave management, attendance history, reports, and responsive Android flows."
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Healthcare Mobile Apps",
+      "platform": "Flutter Portfolio",
+      "year": "2026",
+      "link": "mailto:chennareddyvinay@gmail.com",
+      "desc": "Cross-platform HMMA apps for appointment booking, health records, doctor workflows, notifications, and secure patient services."
+    },
+    {
+      "id": 2,
+      "title": "Conference Call App",
+      "platform": "WebRTC Project",
+      "year": "2026",
+      "link": "mailto:chennareddyvinay@gmail.com",
+      "desc": "Real-time video conferencing with chat, scheduling, Firebase integration, and optimized cross-device communication."
+    },
+    {
+      "id": 3,
+      "title": "Attendance Management",
+      "platform": "React Native",
+      "year": "2026",
+      "link": "mailto:chennareddyvinay@gmail.com",
+      "desc": "Face validation, check-in and check-out tracking, leave workflows, attendance history, and reliable mobile reporting."
+    },
+    {
+      "id": 4,
+      "title": "Mobile App Engineering",
+      "platform": "Practice Area",
+      "year": "2026",
+      "link": "mailto:chennareddyvinay@gmail.com",
+      "desc": "Flutter, React Native, REST API integration, Firebase, testing, debugging, performance tuning, and clean mobile architecture."
+    }
+  ],
+  "socials": [
+    { "label": "GitHub", "href": "https://github.com/Vinnureddy123" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/vinaychennareddy" },
+    { "label": "Instagram", "href": "https://www.instagram.com/chennareddyvinay" },
+    { "label": "YouTube", "href": "mailto:chennareddyvinay@gmail.com" }
+  ]
+}
