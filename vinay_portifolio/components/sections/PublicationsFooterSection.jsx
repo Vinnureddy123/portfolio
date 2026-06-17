@@ -141,7 +141,7 @@ export default function PublicationsFooterSection() {
       videoEl.src = `${BASE}/assets/footer-video.mp4`
       videoEl.muted     = true
       videoEl.playsInline = true
-      videoEl.loop      = true
+      videoEl.loop      = false
       videoEl.preload   = 'auto'
 
       const vidTex = new THREE.VideoTexture(videoEl)
