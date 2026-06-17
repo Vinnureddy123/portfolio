@@ -155,6 +155,7 @@ export default function PublicationsFooterSection() {
         uVideoAspect: { value: 16 / 9 },
         uCanvasAspect: { value: W / H },
       }
+      
       videoEl.addEventListener('loadedmetadata', () => {
         if (videoEl.videoWidth && videoEl.videoHeight)
           vidUni.uVideoAspect.value = videoEl.videoWidth / videoEl.videoHeight
