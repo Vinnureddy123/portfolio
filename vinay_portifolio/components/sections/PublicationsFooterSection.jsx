@@ -142,6 +142,7 @@ export default function PublicationsFooterSection() {
       videoEl.muted     = true
       videoEl.playsInline = true
       videoEl.loop      = false
+      videoEl.removeAttribute('loop')
       videoEl.preload   = 'auto'
 
       const vidTex = new THREE.VideoTexture(videoEl)
@@ -291,11 +292,13 @@ export default function PublicationsFooterSection() {
 
         if (xfade > 0.04 && !videoPlaying) {
           videoPlaying = true
-          videoEl.play().catch(() => {})
+          // Only play if the video hasn't finished yet
+          if (!videoEl.ended) {
+            videoEl.play().catch(() => {})
+          }
         } else if (xfade <= 0.04 && videoPlaying) {
           videoPlaying = false
           videoEl.pause()
-          videoEl.currentTime = 0
         }
       }
 
